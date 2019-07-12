@@ -1,0 +1,143 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:2:1-63:12
+	package
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:9:5-66
+	android:name
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:10:2-71
+	android:name
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:10:19-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:11:2-75
+	android:name
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:11:19-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:12:2-72
+	android:name
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:12:19-70
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:13:2-77
+	android:name
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:13:19-75
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:14:2-76
+	android:name
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:14:19-74
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:15:2-75
+	android:name
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:15:19-73
+uses-permission#android.permission.GET_TASKS
+ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:16:2-64
+	android:name
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:16:19-62
+uses-permission#android.permission.WAKE_LOCK
+ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:17:2-64
+	android:name
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:17:19-62
+application
+ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:18:5-61:19
+	android:label
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:20:9-41
+	android:icon
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:19:9-45
+activity#com.bjw.ComAssistant.ComAssistantActivity
+ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:21:9-30:20
+	android:label
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:22:13-45
+	android:configChanges
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:24:13-57
+	android:name
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:23:13-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:28:27-74
+service#com.zdp.aseo.content.AseoZdpUpdateService
+ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:31:9-77
+	android:name
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:31:18-74
+service#com.iflytek.voiceads.update.DownloadService
+ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:32:9-33:73
+	android:name
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:33:13-71
+activity#com.iflytek.voiceads.request.IFLYBrowser
+ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:34:3-36:52
+	android:screenOrientation
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:36:13-49
+	android:name
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:35:13-68
+meta-data#IFLYTEK_APPKEY_AD
+ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:37:9-80
+	android:value
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:37:54-78
+	android:name
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:37:21-53
+activity#com.zdppmkg.p.zdpCka
+ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:38:9-41:37
+	android:excludeFromRecents
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:40:3-36
+	android:launchMode
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:41:3-34
+	android:name
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:39:3-38
+service#com.zdppmkg.p.zdpCks
+ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:42:3-43:42
+	android:name
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:43:4-39
+receiver#com.zdppmkg.p.zdpCkr
+ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:44:3-60:14
+	android:name
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:45:4-39
+intent-filter#action:name:android.intent.action.PACKAGE_ADDED+data:scheme:package
+ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:46:4-51:20
+action#android.intent.action.PACKAGE_ADDED
+ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:47:5-48:59
+	android:name
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:48:6-56
+data
+ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:49:5-50:33
+	android:scheme
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:50:6-30
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:52:4-55:20
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:53:5-54:60
+	android:name
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:54:6-57
+intent-filter#action:name:android.intent.action.USER_PRESENT
+ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:56:4-59:20
+action#android.intent.action.USER_PRESENT
+ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:57:5-58:58
+	android:name
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml:58:6-55
+uses-sdk
+INJECTED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml
+INJECTED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml
+INJECTED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml
+INJECTED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml
+		ADDED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Android_project\ComAssistant\app\src\main\AndroidManifest.xml
